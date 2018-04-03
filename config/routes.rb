@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :users do
-    resources :bugs
-  end
+  resources :users 
+  resources :bugs
 end
